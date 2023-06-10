@@ -1,21 +1,34 @@
 import logo from './logo.svg';
 import './App.css';
+import React from "react";
 
 function App() {
+
   return (
-    <div className="App">
+    <div
+      className='App-Name'
+      // style={{
+      //   backgroundImage: "url(/bach.png)",
+      //   backgroundPosition: 'center',
+      //   backgroundSize: 'cover',
+      //   backgroundRepeat: 'no-repeat',
+      // }}
+      >
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Ahmad Al_Frehan
+          Welcome to my Articles Section
+        </p>
+        <p>
+          COMING SOON
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://ahmadalfrehan.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Home Screen
         </a>
       </header>
     </div>
